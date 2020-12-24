@@ -1,6 +1,6 @@
-# freeCodeCamp Responsive Web Design Projects
-## Build a Personal Portfolio Webpage
+# Grapevine Plots
+## Personal Portfolio Webpage
 
-I built this front-end page to complete the freeCodeCamp assignment [Build a Personal Portfolio Webpage](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage) in the Responsive Web Design certification.
+This page is a portfolio for articles I have written about the statistical analysis of wine.
 
-The formal assignment is submitted in [CodePen](https://codepen.io/ewotawa/full/mdPOvBd).
+I built this front-end page based on work I did to complete the freeCodeCamp assignment [Build a Personal Portfolio Webpage](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage) in the Responsive Web Design certification.
