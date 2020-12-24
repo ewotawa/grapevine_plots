@@ -1,9 +1,15 @@
 let projects = [
   [
-    "Analysis of Wine Spectator's Alphabetical Guide to Washington",
-    "I report the results of a series of exploratory data analysis methods on the list that accompanied the article The Alphabetical Guide to Washington by Tim Fish from the September 2020 issue of Wine Spectator. The list includes 418 wines from the Washington State American Viticultural Areas (AVAs), with vintages between 2014 and 2019.",
+    "Alphabetical Guide to Washington",
+    "I report the results of a of exploratory data analysis on the Alphabetical Guide to Washington. \nThe list accompanied Tim Fish's tasting report in the September 2020 issue of Wine Spectator.",
     "https://github.com/ewotawa/wines_of_washington",
     "https://www.linkedin.com/pulse/grapevine-plots-analysis-wine-spectators-alphabetical-wotawa"
+  ],
+  [
+    "Alphabetical Guide to Spain",
+    "I report on the results of exploratory data analysis, hypothesis testing, and regression analysis on the Alphabetical Guide to Spain. \nThe list accompanied Thomas Matthew's article Sun and Shadows in the October 15, 2020 issue of Wine Spectator.",
+    "https://github.com/ewotawa/wines_of_spain",
+    "https://www.linkedin.com/pulse/grapevine-plots-analysis-wine-spectators-alphabetical-wotawa-1c"
   ]
 ];
 
