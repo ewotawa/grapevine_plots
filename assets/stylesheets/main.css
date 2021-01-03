@@ -95,7 +95,7 @@ body {
   background-repeat: no repeat;
 }
 
-#projects, #contact {
+#articles, #contact {
   width: 60%;
   padding: 20px;
   margin: auto;
@@ -120,15 +120,15 @@ main a:hover {
   text-shadow: 2px 2px 2px gray;
 }
 
-/* projects styling */
+/* articles styling */
 
-#projects article, #contact article {
+#articles article, #contact article {
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
 }
 
-#projects article {
+#articles article {
   border-style: ridge;
   border-width: thick;
   margin-top: 10px;
@@ -140,15 +140,15 @@ main a:hover {
   width: 70%;
 }
 
-#projects h2, #contact h2 {
+#articles h2, #contact h2 {
   text-align: center;
 }
 
-#projects h3, #contact h3 {
+#articles h3, #contact h3 {
   width: 10%;
 }
 
-#projects p, #contact p {
+#articles p, #contact p {
   width: 40%;
 }
 
@@ -192,15 +192,15 @@ input {
     width: 80%;
   }
 
-  #projects, #contact {
+  #articles, #contact {
     width: 80%;
   }
 
-  #projects h3, #contact h3 {
+  #articles h3, #contact h3 {
     width: 100%;
   }
 
-  #projects p, #contact p {
+  #articles p, #contact p {
     width: 100%;
   }
 

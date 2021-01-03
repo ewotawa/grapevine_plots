@@ -68,7 +68,7 @@ for (project in projects) {
   console.log(article);
 
   /* add to the DOM */
-  var container = document.getElementById("projects");
+  var container = document.getElementById("articles");
 
   console.log(container);
 
