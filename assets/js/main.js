@@ -1,15 +1,14 @@
 let projects = [
   [
-    "Alphabetical Guide to Washington",
-    "I report the results of a of exploratory data analysis on the Alphabetical Guide to Washington. The list accompanied Tim Fish's tasting report in the September 2020 issue of Wine Spectator.",
-    "https://github.com/ewotawa/wines_of_washington",
-    "https://www.linkedin.com/pulse/grapevine-plots-analysis-wine-spectators-alphabetical-wotawa"
-  ],
-  [
     "Alphabetical Guide to Spain",
-    "I report on the results of exploratory data analysis, hypothesis testing, and regression analysis on the Alphabetical Guide to Spain. The list accompanied Thomas Matthew's article Sun and Shadows in the October 15, 2020 issue of Wine Spectator.",
+    "December 24, 2020 - I report on the results of exploratory data analysis, hypothesis testing, and regression analysis on the Alphabetical Guide to Spain. The list accompanied Thomas Matthew's article Sun and Shadows in the October 15, 2020 issue of Wine Spectator.",
     "https://github.com/ewotawa/wines_of_spain",
     "https://www.linkedin.com/pulse/grapevine-plots-analysis-wine-spectators-alphabetical-wotawa-1c"
+  ],[
+    "Alphabetical Guide to Washington",
+    "December 9, 2020 - I report the results of a of exploratory data analysis on the Alphabetical Guide to Washington. The list accompanied Tim Fish's tasting report in the September 2020 issue of Wine Spectator.",
+    "https://github.com/ewotawa/wines_of_washington",
+    "https://www.linkedin.com/pulse/grapevine-plots-analysis-wine-spectators-alphabetical-wotawa"
   ]
 ];
 
@@ -54,17 +53,17 @@ for (project in projects) {
   github.setAttribute("target", "_blank");
   article.appendChild(github);
 
-  /* add codepen link to article */
-  let codepen = document.createElement("a");
-  codepen.setAttribute("class", "flex-item");
-  let codepenIcon = document.createElement("i");
-  codepenIcon.setAttribute("class", "fab fa-linkedin");
-  codepen.appendChild(codepenIcon);
-  let codepenText = document.createTextNode(' LinkedIn');
-  codepen.appendChild(codepenText);
-  codepen.setAttribute("href",  projects[project][3]);
-  codepen.setAttribute("target", "_blank");
-  article.appendChild(codepen);
+  /* add linkedin link to article */
+  let linkedin = document.createElement("a");
+  linkedin.setAttribute("class", "flex-item");
+  let linkedinIcon = document.createElement("i");
+  linkedinIcon.setAttribute("class", "fab fa-linkedin");
+  linkedin.appendChild(linkedinIcon);
+  let linkedinText = document.createTextNode(' LinkedIn');
+  linkedin.appendChild(linkedinText);
+  linkedin.setAttribute("href",  projects[project][3]);
+  linkedin.setAttribute("target", "_blank");
+  article.appendChild(linkedin);
 
   console.log(article);
 
