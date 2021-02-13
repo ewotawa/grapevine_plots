@@ -1,12 +1,17 @@
 let projects = [
   [
+    "Top 100 Wines 1988-2020",
+    "February 8, 2021 🍇 I report on the results of exploratory data analysis on Wine Spectator's Top 100 Wine lists from 1988 to 2020.",
+    "https://github.com/ewotawa/top_100_wines_2020",
+    "https://www.linkedin.com/pulse/grapevine-plots-wine-spectators-top-100-wines-1988-2020-wotawa"
+  ],[
     "Alphabetical Guide to Spain",
-    "December 24, 2020 - I report on the results of exploratory data analysis, hypothesis testing, and regression analysis on the Alphabetical Guide to Spain. The list accompanied Thomas Matthew's article Sun and Shadows in the October 15, 2020 issue of Wine Spectator.",
+    "December 24, 2020 🍇 I report on the results of exploratory data analysis, hypothesis testing, and regression analysis on the Alphabetical Guide to Spain. The list accompanied Thomas Matthew's article Sun and Shadows in the October 15, 2020 issue of Wine Spectator.",
     "https://github.com/ewotawa/wines_of_spain",
     "https://www.linkedin.com/pulse/grapevine-plots-analysis-wine-spectators-alphabetical-wotawa-1c"
   ],[
     "Alphabetical Guide to Washington",
-    "December 9, 2020 - I report the results of a of exploratory data analysis on the Alphabetical Guide to Washington. The list accompanied Tim Fish's tasting report in the September 2020 issue of Wine Spectator.",
+    "December 9, 2020 🍇 I report the results of a of exploratory data analysis on the Alphabetical Guide to Washington. The list accompanied Tim Fish's tasting report in the September 2020 issue of Wine Spectator.",
     "https://github.com/ewotawa/wines_of_washington",
     "https://www.linkedin.com/pulse/grapevine-plots-analysis-wine-spectators-alphabetical-wotawa"
   ]
@@ -40,6 +45,7 @@ for (project in projects) {
   let pText = document.createTextNode(projects[project][1]);
   p.appendChild(pText);
   article.appendChild(p);
+  console.log(p);
 
   /* add github link to article */
   let github = document.createElement("a");
