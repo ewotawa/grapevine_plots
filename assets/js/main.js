@@ -17,14 +17,18 @@ let projects = [
   ]
 ];
 
+/*
 for (i = 0; i < projects.length; i++) {
 console.log(projects[i][0]);
 }
+*/
 
 function addProject(projects) {
 for (project in projects) {
 
+  /*
   console.log(project);
+  */
 
   /* create a new element to hold the project */
   let article = document.createElement("article");
@@ -45,7 +49,9 @@ for (project in projects) {
   let pText = document.createTextNode(projects[project][1]);
   p.appendChild(pText);
   article.appendChild(p);
+  /*
   console.log(p);
+  */
 
   /* add github link to article */
   let github = document.createElement("a");
@@ -71,12 +77,16 @@ for (project in projects) {
   linkedin.setAttribute("target", "_blank");
   article.appendChild(linkedin);
 
+  /*
   console.log(article);
+  *.
 
   /* add to the DOM */
   var container = document.getElementById("articles");
 
+  /*
   console.log(container);
+  */
 
   container.appendChild(article);
 }
