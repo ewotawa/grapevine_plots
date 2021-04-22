@@ -1,5 +1,11 @@
 let projects = [
   [
+    "Wine Classifier App",
+    "April 16, 2021 🍇 I walk you through the process to create two text classifier machine learning models -- a neural network and a Support Vector Machine model -- that take an English-language wine review text as input and output one of five wine styles: Dessert & Fortified, Red, Rosé or Rosado, Sparkling, or White. I trained the model on the text of 3,300 wine reviews from Wine Spectator's Top 100 Wine lists from 1988 to 2020.",
+    "https://github.com/ewotawa/top100-wine-classifier",
+    "https://www.linkedin.com/pulse/grapevine-plots-wine-classifier-app-elizabeth-wotawa/?published=t"
+  ],
+  [
     "Top 100 Wines 1988-2020",
     "February 8, 2021 🍇 I report on the results of exploratory data analysis on Wine Spectator's Top 100 Wine lists from 1988 to 2020.",
     "https://github.com/ewotawa/top_100_wines_2020",
